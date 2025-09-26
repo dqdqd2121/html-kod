@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Животные из Красной книги</title>
+  <style>
+    body {
+      background-color: #fdf6f0;
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      background-color: #c62828;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .card {
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      margin: 15px;
+      width: 300px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card-body {
+      padding: 15px;
+    }
+
+    .card-body h2 {
+      margin-top: 0;
+      font-size: 1.4em;
+      color: #b71c1c;
+    }
+
+    .card-body p {
+      font-size: 0.95em;
+      line-height: 1.5;
+    }
+
+    footer {
+      background-color: #c62828;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Животные из Красной книги</h1>
+    <p>Узнай больше о редких и исчезающих животных</p>
+  </header>
+
+  <div class="container">
+
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Amur_leopard_in_a_zoo.jpg/800px-Amur_leopard_in_a_zoo.jpg" alt="Амурский леопард">
+      <div class="card-body">
+        <h2>Амурский леопард</h2>
+        <p>Один из самых редких леопардов в мире. Обитает на Дальнем Востоке России. На грани исчезновения из-за охоты и утраты среды обитания.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Saiga_antelope_%28Saiga_tatarica%29.jpg/800px-Saiga_antelope_%28Saiga_tatarica%29.jpg" alt="Сайгак">
+      <div class="card-body">
+        <h2>Сайгак</h2>
+        <p>Уникальное животное степей с характерным носом-хоботком. Страдает от браконьерства и изменения климата.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Snow_leopard_portrait.jpg/800px-Snow_leopard_portrait.jpg" alt="Ирбис (Снежный барс)">
+      <div class="card-body">
+        <h2>Снежный барс (Ирбис)</h2>
+        <p>Хищник горных районов Центральной Азии. Загоняется из-за охоты и разрушения природных ареалов.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Aquila_heliaca_1.jpg/800px-Aquila_heliaca_1.jpg" alt="Могильник (орёл)">
+      <div class="card-body">
+        <h2>Орёл-могильник</h2>
+        <p>Крупная хищная птица из Красной книги России. Теряет среду обитания из-за сельского хозяйства и вырубки лесов.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+  
+  </footer>
+
+</body>
+</html>
